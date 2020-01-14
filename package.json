@@ -1,8 +1,13 @@
 {
   "name": "cra-template-module-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "The base template for Create React App with module's structure and redux",
+  "main": "template.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +15,17 @@
     "type": "git",
     "url": "git+https://github.com/jamet-julien/cra-template-module-system.git"
   },
-  "keywords": [],
   "author": "Julien Jamet <jamet.julien@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jamet-julien/cra-template-module-system/issues"
   },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
   "homepage": "https://github.com/jamet-julien/cra-template-module-system#readme"
 }
