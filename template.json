@@ -1,9 +1,11 @@
 {
   "dependencies": {
-    "commit": "git-cz",
     "commitizen": "4.0.3",
     "react-redux": "7.1.3",
     "redux": "4.0.4"
+  },
+  "scripts": {
+    "commit": "git-cz"
   },
   "config": {
     "commitizen": {
